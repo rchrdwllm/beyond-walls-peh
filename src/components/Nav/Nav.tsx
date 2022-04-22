@@ -15,7 +15,9 @@ const Nav = () => {
             exit="exit"
             className={styles.nav}
         >
-            <Link href="/">Coded with &#128153; by Richard William</Link>
+            <Link href="https://github.com/rchrdwllm/beyond-walls-peh">
+                Coded with &#128153; by Richard William
+            </Link>
             <Link href="http://romigarduce.blogspot.com/">
                 See Romi's Official Blog
             </Link>
