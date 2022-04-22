@@ -68,20 +68,18 @@
 
     .heroImg {
         position: absolute;
-        right: -5rem;
+        right: 0;
         bottom: 0;
-        width: 100%;
+        width: 85%;
         overflow: hidden;
         transform: translateZ(0);
 
         @media screen and (min-width: breakpoints.$sm) {
             width: 75%;
-            bottom: 0;
         }
 
         @media screen and (min-width: breakpoints.$md) {
             width: 50%;
-            right: 0;
         }
 
         @media screen and (min-width: breakpoints.$xl) {
