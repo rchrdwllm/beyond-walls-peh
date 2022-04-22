@@ -1,0 +1,33 @@
+@use "../../styles/breakpoints.scss";
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+    h1 {
+        font-size: 3rem;
+
+        @media screen and (min-width: breakpoints.$sm) {
+            font-size: 4rem;
+        }
+
+        @media screen and (min-width: breakpoints.$md) {
+            font-size: 6rem;
+        }
+
+        @media screen and (min-width: breakpoints.$lg) {
+            font-size: 7rem;
+        }
+
+        @media screen and (min-width: breakpoints.$xl3) {
+            font-size: 12rem;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+@use "./colors.scss";
+@use "./breakpoints.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@400;500;700&family=Neuton:wght@800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Manrope, sans-serif;
+    will-change: opacity, height;
+}
+
+body {
+    background-color: colors.$bg-light;
+    overflow-x: hidden;
+}
+
+p,
+span {
+    font-size: 1rem;
+    line-height: 160%;
+    color: colors.$text-dark;
+
+    @media screen and (min-width: breakpoints.$sm) {
+        font-size: 1.5rem;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    line-height: 90%;
+    color: colors.$text-dark;
+    text-transform: uppercase;
+}

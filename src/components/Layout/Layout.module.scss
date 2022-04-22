@@ -1,0 +1,7 @@
+@use "../../styles/breakpoints.scss";
+
+.main {
+    @media screen and (min-width: breakpoints.$xl) {
+        position: fixed;
+    }
+}

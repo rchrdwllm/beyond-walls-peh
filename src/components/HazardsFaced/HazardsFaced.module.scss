@@ -1,0 +1,57 @@
+@use "../../styles/breakpoints.scss";
+
+.hazardsFaced {
+    padding: 1rem;
+    margin-top: 5rem;
+
+    @media screen and (min-width: breakpoints.$sm) {
+        padding: 1rem 3rem;
+    }
+
+    @media screen and (min-width: breakpoints.$md) {
+        padding: 2rem 3rem;
+    }
+
+    @media screen and (min-width: breakpoints.$xl) {
+        padding: 7rem 6rem 0;
+        display: grid;
+        grid-template-columns: 40% auto;
+        gap: 2rem;
+    }
+
+    @media screen and (min-width: breakpoints.$xl3) {
+        padding: 7rem 12rem 0;
+    }
+
+    * {
+        will-change: transform;
+    }
+
+    div {
+        h1 {
+            font-size: 3rem;
+
+            @media screen and (min-width: breakpoints.$xl) {
+                font-size: 5rem;
+            }
+
+            @media screen and (min-width: breakpoints.$xl2) {
+                font-size: 6rem;
+            }
+
+            @media screen and (min-width: breakpoints.$xl3) {
+                font-size: 7rem;
+            }
+        }
+
+        p {
+            margin-top: 2rem;
+
+            &:first-child {
+                @media screen and (min-width: breakpoints.$xl) {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}

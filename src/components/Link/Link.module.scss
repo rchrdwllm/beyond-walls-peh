@@ -1,0 +1,32 @@
+@use "../../styles/colors.scss";
+
+.link {
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    line-height: unset;
+    font-size: 1rem;
+    width: fit-content;
+    font-weight: 500;
+    word-break: break-all;
+
+    &::before {
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        content: "";
+        background-color: colors.$bg-dark;
+        will-change: width;
+        transition: width 0.5s;
+    }
+
+    &:hover::before {
+        width: 100%;
+    }
+
+    &.lowercase {
+        text-transform: lowercase !important;
+    }
+}
