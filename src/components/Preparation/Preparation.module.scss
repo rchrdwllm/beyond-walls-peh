@@ -13,14 +13,16 @@
     }
 
     @media screen and (min-width: breakpoints.$xl) {
-        padding: 7rem 6rem 0;
+        padding: 3rem 6rem 0;
         display: grid;
         grid-template-columns: 40% auto;
         gap: 2rem;
+        margin-top: 10rem;
     }
 
     @media screen and (min-width: breakpoints.$xl3) {
-        padding: 7rem 12rem 0;
+        padding: 3rem 12rem 0;
+        gap: 3rem;
     }
 
     * {
