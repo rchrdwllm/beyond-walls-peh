@@ -18,12 +18,12 @@
     }
 
     @media screen and (min-width: breakpoints.$xl2) {
-        margin-top: 25rem;
+        margin-top: 30rem;
     }
 
     @media screen and (min-width: breakpoints.$xl3) {
         padding: 4rem 12rem;
-        margin-top: 27rem;
+        margin-top: 32rem;
     }
 
     * {
@@ -31,8 +31,6 @@
     }
 
     p {
-        text-transform: uppercase;
-        font-weight: 500;
         font-size: 1.25rem;
 
         @media screen and (min-width: breakpoints.$md) {
@@ -40,9 +38,9 @@
         }
 
         @media screen and (min-width: breakpoints.$xl) {
-            font-size: 3rem;
-            width: 70%;
-            line-height: 120%;
+            width: 60%;
+            line-height: 160%;
+            text-align: justify;
         }
 
         &:not(:first-child) {
