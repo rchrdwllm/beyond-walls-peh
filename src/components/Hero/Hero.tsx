@@ -55,7 +55,7 @@ const Hero = () => {
                 data-scroll
                 data-scroll-speed={0.5}
             >
-                The first and only Filipino to complete the seven summits.
+                The first Filipino to complete the seven summits.
             </motion.p>
             <div className={styles.heroImg}>
                 <Image
