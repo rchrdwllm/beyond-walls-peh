@@ -1,7 +1,7 @@
 import type { AppProps } from "next/app";
 
 import "styles/globals.scss";
-import "locomotive-scroll/dist/locomotive-scroll.css";
+import "styles/locomotive.scss";
 
 import { install } from "resize-observer";
 

@@ -9,14 +9,16 @@ interface LinkProps {
     children?: ReactNode;
     href?: string;
     lowercase?: boolean;
+    style?: {};
 }
 
-const Link = ({ className, children, href, lowercase }: LinkProps) => {
+const Link = ({ className, children, href, lowercase, style }: LinkProps) => {
     return (
         <span
             className={`${styles.link} ${className} ${
                 lowercase ? styles.lowercase : ""
             }`}
+            style={style}
         >
             <LinkComponent href={href ?? "/"}>{children}</LinkComponent>
         </span>

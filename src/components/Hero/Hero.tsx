@@ -27,7 +27,7 @@ const Hero = () => {
                     Romi
                 </motion.span>
             </h1>
-            <h1 data-scroll data-scroll-speed={2} data-scroll-position="top">
+            <h1 data-scroll data-scroll-speed={1} data-scroll-position="top">
                 <motion.span
                     variants={slideAnimation}
                     initial="initial"

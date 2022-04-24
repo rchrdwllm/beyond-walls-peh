@@ -33,7 +33,6 @@ const Layout = ({ children }: LayoutProps) => {
             <Head>
                 <title>Romi Garduce Blog</title>
             </Head>
-            <AnimatePresence>{isLoaded ? <Nav /> : null}</AnimatePresence>
             <AnimatePresence exitBeforeEnter>
                 {isLoaded ? (
                     <LocomotiveScrollProvider
@@ -51,7 +50,14 @@ const Layout = ({ children }: LayoutProps) => {
                                 data-scroll-container
                                 ref={containerRef}
                             >
-                                {isLoaded ? children : <Loader />}
+                                {isLoaded ? (
+                                    <>
+                                        <Nav />
+                                        {children}
+                                    </>
+                                ) : (
+                                    <Loader />
+                                )}
                             </main>
                         </LoadingContext.Provider>
                     </LocomotiveScrollProvider>

@@ -9,6 +9,7 @@ const Nav = () => {
 
     return (
         <motion.nav
+            data-scroll-section
             variants={revealAnimation}
             initial="initial"
             animate="animate"
