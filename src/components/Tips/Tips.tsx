@@ -19,18 +19,17 @@ const Tips = () => {
                 </p>
                 <p>
                     He advices us to plan ahead of our trip, get basic trainings
-                    on wilderness or outdoor activities that you’re into, get
+                    on wilderness or outdoor activities that you're into, get
                     first aid training, and get sufficiently fit for your
                     planned objective. These are good advices and things to do
                     prior to your trip. These can help you reduce the likelihood
                     of falling for hazards.
                 </p>
                 <p>
-                    Romi also has advices and tips for facing hazards during
-                    your trip. First is to have someone know where you’re going
+                    It is also important to have someone know where you're going
                     so people will be aware and will know where to look for you
                     in case you get lost. He also advices mountaineers to get a
-                    guide if you’re unfamiliar with the place; and as much as
+                    guide if you're unfamiliar with the place; and as much as
                     possible, avoid travelling solo or by yourself.
                 </p>
                 <p>
@@ -44,7 +43,7 @@ const Tips = () => {
                     experience on how to actually survive.
                 </p>
                 <p>
-                    Lastly, he advices us to know our limits. While it’s good to
+                    Lastly, he advices us to know our limits. While it's good to
                     push your limit every now and then, not knowing when to stop
                     is dangerous and sometimes fatal. Know your body, know your
                     limits.
