@@ -7,11 +7,11 @@ import dynamic from "next/dynamic";
 
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import LoadingContext from "context/LoadingContext";
-import Loader from "components/Loader";
 import { AnimatePresence } from "framer-motion";
 import Head from "next/head";
 
 const Nav = dynamic(() => import("components/Nav"), { ssr: false });
+const Loader = dynamic(() => import("components/Loader"), { ssr: false });
 
 interface LayoutProps {
     children: ReactNode;

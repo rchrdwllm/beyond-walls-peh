@@ -236,6 +236,11 @@
     "@typescript-eslint/types" "5.10.1"
     eslint-visitor-keys "^3.0.0"
 
+"@uiball/loaders@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@uiball/loaders/-/loaders-1.2.4.tgz#3c60cba02d71ced80ac5f1c4f87ff9312d93d08b"
+  integrity sha512-Oy8dWNrmSi0dAmrBmr4laSDvMu/ZNEE8xRf4kp8R6t/L6NecLlxyRtjidOtu8a2IzcZwisp0mksGE2zATrJFoQ==
+
 acorn-jsx@^5.3.1:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"

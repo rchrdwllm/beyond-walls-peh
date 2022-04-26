@@ -2,6 +2,8 @@ import styles from "./Loader.module.scss";
 import { motion } from "framer-motion";
 import { useAnimations } from "hooks/useAnimations";
 
+import { Waveform } from "@uiball/loaders";
+
 const Loader = () => {
     const { revealAnimation } = useAnimations();
 
@@ -13,7 +15,7 @@ const Loader = () => {
             exit="exit"
             className={styles.loader}
         >
-            <h1>Loading...</h1>
+            <Waveform />
         </motion.div>
     );
 };
